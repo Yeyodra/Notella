@@ -61,7 +61,8 @@ A single, self-owned dashboard that consolidates all personal productivity tools
 |----------|-----------|---------|
 | Keep vclass bot as separate CF Worker | Already working, battle-tested, no need to rebuild | — Pending |
 | Cloudflare R2 for file storage | Free 10GB tier, S3-compatible, pairs well with CF ecosystem | — Pending |
-| Free-tier deploy stack | Owner wants zero cost, will be determined by research | — Pending |
+| Neon PostgreSQL for database | Owner already uses Neon in other projects, scale-to-zero without suspend (unlike Supabase), fast cold start ~500ms | — Pending |
+| Better Auth for authentication | Open source, self-hosted, no user limits, supports OAuth + email/password + magic link, no vendor lock-in | — Pending |
 | Generic kanban system | Kanban is a platform feature, not tied to vclass — any module can create boards | — Pending |
 | Modular plugin-like architecture | Mega project needs extensibility without refactoring core | — Pending |
 
