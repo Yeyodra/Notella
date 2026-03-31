@@ -14,9 +14,8 @@ Requirements for initial release. Each maps to roadmap phases.
 - [ ] **AUTH-03**: User can log out from any page
 - [ ] **AUTH-04**: User can set display name and avatar on their profile
 - [ ] **AUTH-05**: User can log in with Google OAuth
-- [ ] **AUTH-06**: User can log in with GitHub OAuth
-- [ ] **AUTH-07**: Owner can assign roles (owner/admin/member) to users within an organization
-- [ ] **AUTH-08**: User can invite others to join via email/link (required for role-based access)
+- [ ] **AUTH-06**: Owner can assign roles (owner/admin/member) to users within an organization
+- [ ] **AUTH-07**: User can invite others to join via email/link (required for role-based access)
 
 ### Dashboard & Navigation
 
@@ -114,40 +113,39 @@ Which phases cover which requirements. Updated during roadmap creation.
 
 | Requirement | Phase | Status |
 |-------------|-------|--------|
-| AUTH-01 | — | Pending |
-| AUTH-02 | — | Pending |
-| AUTH-03 | — | Pending |
-| AUTH-04 | — | Pending |
-| AUTH-05 | — | Pending |
-| AUTH-06 | — | Pending |
-| AUTH-07 | — | Pending |
-| AUTH-08 | — | Pending |
-| DASH-01 | — | Pending |
-| DASH-02 | — | Pending |
-| DASH-03 | — | Pending |
-| DASH-04 | — | Pending |
-| KANB-01 | — | Pending |
-| KANB-02 | — | Pending |
-| KANB-03 | — | Pending |
-| KANB-04 | — | Pending |
-| KANB-05 | — | Pending |
-| BOOK-01 | — | Pending |
-| BOOK-02 | — | Pending |
-| BOOK-03 | — | Pending |
-| BOOK-04 | — | Pending |
-| BOOK-05 | — | Pending |
-| NOTE-01 | — | Pending |
-| NOTE-02 | — | Pending |
-| VCLS-01 | — | Pending |
-| VCLS-02 | — | Pending |
-| VCLS-03 | — | Pending |
-| VCLS-04 | — | Pending |
-| VCLS-05 | — | Pending |
+| AUTH-01 | Phase 1 | Pending |
+| AUTH-02 | Phase 1 | Pending |
+| AUTH-03 | Phase 1 | Pending |
+| AUTH-04 | Phase 1 | Pending |
+| AUTH-05 | Phase 1 | Pending |
+| AUTH-06 | Phase 1 | Pending |
+| AUTH-07 | Phase 1 | Pending |
+| DASH-01 | Phase 1 | Pending |
+| DASH-02 | Phase 6 | Pending |
+| DASH-03 | Phase 1 | Pending |
+| DASH-04 | Phase 1 | Pending |
+| KANB-01 | Phase 2 | Pending |
+| KANB-02 | Phase 2 | Pending |
+| KANB-03 | Phase 2 | Pending |
+| KANB-04 | Phase 2 | Pending |
+| KANB-05 | Phase 2 | Pending |
+| BOOK-01 | Phase 4 | Pending |
+| BOOK-02 | Phase 4 | Pending |
+| BOOK-03 | Phase 4 | Pending |
+| BOOK-04 | Phase 4 | Pending |
+| BOOK-05 | Phase 4 | Pending |
+| NOTE-01 | Phase 5 | Pending |
+| NOTE-02 | Phase 5 | Pending |
+| VCLS-01 | Phase 3 | Pending |
+| VCLS-02 | Phase 3 | Pending |
+| VCLS-03 | Phase 3 | Pending |
+| VCLS-04 | Phase 3 | Pending |
+| VCLS-05 | Phase 3 | Pending |
 
 **Coverage:**
-- v1 requirements: 29 total
-- Mapped to phases: 0
-- Unmapped: 29
+- v1 requirements: 28 total
+- Mapped to phases: 28
+- Unmapped: 0 ✓
 
 ---
 *Requirements defined: 2026-03-31*
