@@ -1,4 +1,6 @@
 import { UserProfile } from "@clerk/nextjs";
+import { OrgSection } from "./_components/org-section";
+import { Separator } from "@/components/ui/separator";
 
 export default function SettingsPage() {
   return (
@@ -12,6 +14,8 @@ export default function SettingsPage() {
           },
         }}
       />
+      <Separator />
+      <OrgSection />
     </div>
   );
 }
