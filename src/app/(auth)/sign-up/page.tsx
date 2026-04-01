@@ -1,3 +1,5 @@
+import { SignUp } from "@clerk/nextjs";
+
 export default function SignUpPage() {
-  return <div>Sign Up — Coming soon</div>;
+  return <SignUp />;
 }
