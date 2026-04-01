@@ -4,6 +4,7 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { UserButton } from "@clerk/nextjs";
 import { modules } from "@/lib/modules";
+import { ThemeToggle } from "@/components/shared/theme-toggle";
 import {
   Sidebar,
   SidebarContent,
@@ -51,13 +52,16 @@ export function AppSidebar() {
         </SidebarGroup>
       </SidebarContent>
       <SidebarFooter className="border-t border-sidebar-border p-4">
-        <UserButton
-          appearance={{
-            elements: {
-              avatarBox: "size-8",
-            },
-          }}
-        />
+        <div className="flex items-center justify-between">
+          <UserButton
+            appearance={{
+              elements: {
+                avatarBox: "size-8",
+              },
+            }}
+          />
+          <ThemeToggle />
+        </div>
       </SidebarFooter>
     </Sidebar>
   );
